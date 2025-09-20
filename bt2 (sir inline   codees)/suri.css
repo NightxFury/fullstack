@@ -1,0 +1,39 @@
+body {
+  margin: 50px;
+  background: url('suri2.png')
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;      /* Vertically center */
+  justify-content: flex-start; /* Align to left */
+  color: white;
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content {
+  margin-left: 40px;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-top: 500px;
+  border-radius: 8px;
+}
+h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+p {
+  line-height: 1.5;
+}
+.buj {
+  height: 100px;
+  width: 100px;
+  display: block;
+  border-radius: 10%;
+}.navbar{
+    top: 0%;
+    right: 25%;
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
